@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ControladorMensajito{
     
     @Autowired RepositorioMensajito repoMensa;
-  //  aqui a contnuacion van las 5 operaciones basicas con la entidad mensaje
+  //  aqui a continuacion van las 5 operaciones basicas con la entidad mensaje
     
     //Metodo GET:buscar Todos
    @RequestMapping(value="/mensajito", method=RequestMethod.GET,
